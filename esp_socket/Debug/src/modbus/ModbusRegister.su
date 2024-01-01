@@ -1,0 +1,5 @@
+../src/modbus/ModbusRegister.cpp:10:1:ModbusRegister::ModbusRegister(ModbusMaster*, int, bool)	24	static
+../src/modbus/ModbusRegister.cpp:16:1:ModbusRegister::~ModbusRegister()	16	static
+../src/modbus/ModbusRegister.cpp:16:1:virtual ModbusRegister::~ModbusRegister()	16	static
+../src/modbus/ModbusRegister.cpp:20:5:int ModbusRegister::read()	24	static
+../src/modbus/ModbusRegister.cpp:29:6:void ModbusRegister::write(int)	16	static

@@ -1,0 +1,7 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sct_15xx.h:292:20:Chip_SCT_Config	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sct_15xx.h:367:20:Chip_SCT_SetMatchCount	24	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sct_15xx.h:379:20:Chip_SCT_SetMatchReload	24	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sct_15xx.h:423:20:Chip_SCT_SetControl	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sct_pwm_15xx.h:139:20:Chip_SCTPWM_Stop	16	static
+../src/sct_pwm_15xx.c:51:6:Chip_SCTPWM_SetOutPin	24	static
+../src/sct_pwm_15xx.c:67:6:Chip_SCTPWM_SetRate	24	static

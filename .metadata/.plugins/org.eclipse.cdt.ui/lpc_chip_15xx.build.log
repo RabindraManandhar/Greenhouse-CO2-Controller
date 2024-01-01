@@ -1,0 +1,189 @@
+15:58:26 **** Build of configuration Debug for project lpc_chip_15xx ****
+make -r -j4 all 
+Building file: ../src/acmp_15xx.c
+Building file: ../src/adc_15xx.c
+Building file: ../src/clock_15xx.c
+Building file: ../src/chip_15xx.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/acmp_15xx.d" -MT"src/acmp_15xx.o" -MT"src/acmp_15xx.d" -o "src/acmp_15xx.o" "../src/acmp_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/adc_15xx.d" -MT"src/adc_15xx.o" -MT"src/adc_15xx.d" -o "src/adc_15xx.o" "../src/adc_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/chip_15xx.d" -MT"src/chip_15xx.o" -MT"src/chip_15xx.d" -o "src/chip_15xx.o" "../src/chip_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/clock_15xx.d" -MT"src/clock_15xx.o" -MT"src/clock_15xx.d" -o "src/clock_15xx.o" "../src/clock_15xx.c"
+Finished building: ../src/acmp_15xx.c
+Finished building: ../src/chip_15xx.c
+Finished building: ../src/clock_15xx.c
+ 
+ 
+ 
+Building file: ../src/crc_15xx.c
+Building file: ../src/dac_15xx.c
+Finished building: ../src/adc_15xx.c
+Building file: ../src/dma_15xx.c
+Invoking: MCU C Compiler
+ 
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/dac_15xx.d" -MT"src/dac_15xx.o" -MT"src/dac_15xx.d" -o "src/dac_15xx.o" "../src/dac_15xx.c"
+Invoking: MCU C Compiler
+Building file: ../src/eeprom.c
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/crc_15xx.d" -MT"src/crc_15xx.o" -MT"src/crc_15xx.d" -o "src/crc_15xx.o" "../src/crc_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/dma_15xx.d" -MT"src/dma_15xx.o" -MT"src/dma_15xx.d" -o "src/dma_15xx.o" "../src/dma_15xx.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/eeprom.d" -MT"src/eeprom.o" -MT"src/eeprom.d" -o "src/eeprom.o" "../src/eeprom.c"
+Finished building: ../src/dac_15xx.c
+Finished building: ../src/crc_15xx.c
+Finished building: ../src/dma_15xx.c
+ 
+ 
+ 
+Building file: ../src/gpio_15xx.c
+Building file: ../src/i2c_common_15xx.c
+Building file: ../src/i2cm_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/gpio_15xx.d" -MT"src/gpio_15xx.o" -MT"src/gpio_15xx.d" -o "src/gpio_15xx.o" "../src/gpio_15xx.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/i2c_common_15xx.d" -MT"src/i2c_common_15xx.o" -MT"src/i2c_common_15xx.d" -o "src/i2c_common_15xx.o" "../src/i2c_common_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/i2cm_15xx.d" -MT"src/i2cm_15xx.o" -MT"src/i2cm_15xx.d" -o "src/i2cm_15xx.o" "../src/i2cm_15xx.c"
+Finished building: ../src/eeprom.c
+Finished building: ../src/gpio_15xx.c
+Finished building: ../src/i2c_common_15xx.c
+ 
+ 
+ 
+Building file: ../src/i2cs_15xx.c
+Building file: ../src/iap.c
+Building file: ../src/iocon_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/i2cs_15xx.d" -MT"src/i2cs_15xx.o" -MT"src/i2cs_15xx.d" -o "src/i2cs_15xx.o" "../src/i2cs_15xx.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/iap.d" -MT"src/iap.o" -MT"src/iap.d" -o "src/iap.o" "../src/iap.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/iocon_15xx.d" -MT"src/iocon_15xx.o" -MT"src/iocon_15xx.d" -o "src/iocon_15xx.o" "../src/iocon_15xx.c"
+Finished building: ../src/i2cm_15xx.c
+Finished building: ../src/i2cs_15xx.c
+ 
+ 
+Building file: ../src/pinint_15xx.c
+Finished building: ../src/iap.c
+Building file: ../src/pmu_15xx.c
+Invoking: MCU C Compiler
+ 
+Invoking: MCU C Compiler
+Finished building: ../src/iocon_15xx.c
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/pinint_15xx.d" -MT"src/pinint_15xx.o" -MT"src/pinint_15xx.d" -o "src/pinint_15xx.o" "../src/pinint_15xx.c"
+Building file: ../src/ring_buffer.c
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/pmu_15xx.d" -MT"src/pmu_15xx.o" -MT"src/pmu_15xx.d" -o "src/pmu_15xx.o" "../src/pmu_15xx.c"
+ 
+Invoking: MCU C Compiler
+Building file: ../src/ritimer_15xx.c
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/ritimer_15xx.d" -MT"src/ritimer_15xx.o" -MT"src/ritimer_15xx.d" -o "src/ritimer_15xx.o" "../src/ritimer_15xx.c"
+Finished building: ../src/pinint_15xx.c
+Finished building: ../src/pmu_15xx.c
+Finished building: ../src/ring_buffer.c
+ 
+ 
+Finished building: ../src/ritimer_15xx.c
+ 
+Building file: ../src/rtc_15xx.c
+Building file: ../src/sct_15xx.c
+ 
+Building file: ../src/sct_pwm_15xx.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/sctipu_15xx.c
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/rtc_15xx.d" -MT"src/rtc_15xx.o" -MT"src/rtc_15xx.d" -o "src/rtc_15xx.o" "../src/rtc_15xx.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/sct_15xx.d" -MT"src/sct_15xx.o" -MT"src/sct_15xx.d" -o "src/sct_15xx.o" "../src/sct_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/sct_pwm_15xx.d" -MT"src/sct_pwm_15xx.o" -MT"src/sct_pwm_15xx.d" -o "src/sct_pwm_15xx.o" "../src/sct_pwm_15xx.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/sctipu_15xx.d" -MT"src/sctipu_15xx.o" -MT"src/sctipu_15xx.d" -o "src/sctipu_15xx.o" "../src/sctipu_15xx.c"
+Finished building: ../src/sct_15xx.c
+Finished building: ../src/rtc_15xx.c
+ 
+ 
+Building file: ../src/spi_15xx.c
+Building file: ../src/stopwatch_15xx.c
+Finished building: ../src/sctipu_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/spi_15xx.d" -MT"src/spi_15xx.o" -MT"src/spi_15xx.d" -o "src/spi_15xx.o" "../src/spi_15xx.c"
+Invoking: MCU C Compiler
+ 
+Finished building: ../src/sct_pwm_15xx.c
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/stopwatch_15xx.d" -MT"src/stopwatch_15xx.o" -MT"src/stopwatch_15xx.d" -o "src/stopwatch_15xx.o" "../src/stopwatch_15xx.c"
+ 
+Building file: ../src/swm_15xx.c
+Building file: ../src/sysctl_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/swm_15xx.d" -MT"src/swm_15xx.o" -MT"src/swm_15xx.d" -o "src/swm_15xx.o" "../src/swm_15xx.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/sysctl_15xx.d" -MT"src/sysctl_15xx.o" -MT"src/sysctl_15xx.d" -o "src/sysctl_15xx.o" "../src/sysctl_15xx.c"
+Finished building: ../src/spi_15xx.c
+Finished building: ../src/stopwatch_15xx.c
+ 
+ 
+Building file: ../src/sysinit_15xx.c
+Building file: ../src/uart_15xx.c
+Invoking: MCU C Compiler
+Finished building: ../src/sysctl_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/sysinit_15xx.d" -MT"src/sysinit_15xx.o" -MT"src/sysinit_15xx.d" -o "src/sysinit_15xx.o" "../src/sysinit_15xx.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/uart_15xx.d" -MT"src/uart_15xx.o" -MT"src/uart_15xx.d" -o "src/uart_15xx.o" "../src/uart_15xx.c"
+ 
+Finished building: ../src/swm_15xx.c
+ 
+Building file: ../src/wwdt_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -D__NEWLIB__ -I"D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/wwdt_15xx.d" -MT"src/wwdt_15xx.o" -MT"src/wwdt_15xx.d" -o "src/wwdt_15xx.o" "../src/wwdt_15xx.c"
+Finished building: ../src/sysinit_15xx.c
+ 
+Finished building: ../src/uart_15xx.c
+ 
+Finished building: ../src/wwdt_15xx.c
+ 
+Building target: liblpc_chip_15xx.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_15xx.a"  ./src/acmp_15xx.o ./src/adc_15xx.o ./src/chip_15xx.o ./src/clock_15xx.o ./src/crc_15xx.o ./src/dac_15xx.o ./src/dma_15xx.o ./src/eeprom.o ./src/gpio_15xx.o ./src/i2c_common_15xx.o ./src/i2cm_15xx.o ./src/i2cs_15xx.o ./src/iap.o ./src/iocon_15xx.o ./src/pinint_15xx.o ./src/pmu_15xx.o ./src/ring_buffer.o ./src/ritimer_15xx.o ./src/rtc_15xx.o ./src/sct_15xx.o ./src/sct_pwm_15xx.o ./src/sctipu_15xx.o ./src/spi_15xx.o ./src/stopwatch_15xx.o ./src/swm_15xx.o ./src/sysctl_15xx.o ./src/sysinit_15xx.o ./src/uart_15xx.o ./src/wwdt_15xx.o   
+arm-none-eabi-ar: creating liblpc_chip_15xx.a
+Finished building target: liblpc_chip_15xx.a
+ 
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_15xx.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_15xx.a" >"liblpc_chip_15xx.lss"
+   text	   data	    bss	    dec	    hex	filename
+    610	      0	      0	    610	    262	acmp_15xx.o (ex liblpc_chip_15xx.a)
+    790	      0	      0	    790	    316	adc_15xx.o (ex liblpc_chip_15xx.a)
+    298	      0	      4	    302	    12e	chip_15xx.o (ex liblpc_chip_15xx.a)
+   1700	      0	      0	   1700	    6a4	clock_15xx.o (ex liblpc_chip_15xx.a)
+    494	      0	      0	    494	    1ee	crc_15xx.o (ex liblpc_chip_15xx.a)
+     60	      0	      0	     60	     3c	dac_15xx.o (ex liblpc_chip_15xx.a)
+    294	      0	    288	    582	    246	dma_15xx.o (ex liblpc_chip_15xx.a)
+    192	      0	      0	    192	     c0	eeprom.o (ex liblpc_chip_15xx.a)
+    684	      0	      0	    684	    2ac	gpio_15xx.o (ex liblpc_chip_15xx.a)
+     84	      0	      0	     84	     54	i2c_common_15xx.o (ex liblpc_chip_15xx.a)
+    860	      0	      0	    860	    35c	i2cm_15xx.o (ex liblpc_chip_15xx.a)
+    450	      0	      0	    450	    1c2	i2cs_15xx.o (ex liblpc_chip_15xx.a)
+    598	      0	      0	    598	    256	iap.o (ex liblpc_chip_15xx.a)
+    124	      0	      0	    124	     7c	iocon_15xx.o (ex liblpc_chip_15xx.a)
+      0	      0	      0	      0	      0	pinint_15xx.o (ex liblpc_chip_15xx.a)
+    300	      0	      0	    300	    12c	pmu_15xx.o (ex liblpc_chip_15xx.a)
+    962	      0	      0	    962	    3c2	ring_buffer.o (ex liblpc_chip_15xx.a)
+    692	      0	      0	    692	    2b4	ritimer_15xx.o (ex liblpc_chip_15xx.a)
+      0	      0	      0	      0	      0	rtc_15xx.o (ex liblpc_chip_15xx.a)
+    318	      0	      0	    318	    13e	sct_15xx.o (ex liblpc_chip_15xx.a)
+    412	      0	      0	    412	    19c	sct_pwm_15xx.o (ex liblpc_chip_15xx.a)
+    140	      0	      0	    140	     8c	sctipu_15xx.o (ex liblpc_chip_15xx.a)
+   1766	      0	      0	   1766	    6e6	spi_15xx.o (ex liblpc_chip_15xx.a)
+    328	      0	     12	    340	    154	stopwatch_15xx.o (ex liblpc_chip_15xx.a)
+    356	      0	      0	    356	    164	swm_15xx.o (ex liblpc_chip_15xx.a)
+    466	      0	      0	    466	    1d2	sysctl_15xx.o (ex liblpc_chip_15xx.a)
+    414	      0	      0	    414	    19e	sysinit_15xx.o (ex liblpc_chip_15xx.a)
+   1116	      0	      0	   1116	    45c	uart_15xx.o (ex liblpc_chip_15xx.a)
+    114	      0	      0	    114	     72	wwdt_15xx.o (ex liblpc_chip_15xx.a)
+ 
+
+15:58:34 Build Finished. 0 errors, 0 warnings. (took 7s.825ms)
+

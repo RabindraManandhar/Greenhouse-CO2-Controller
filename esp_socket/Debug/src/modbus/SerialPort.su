@@ -1,0 +1,9 @@
+../src/modbus/SerialPort.cpp:11:1:SerialPort::SerialPort()	104	static
+../src/modbus/SerialPort.cpp:24:1:SerialPort::~SerialPort()	16	static
+../src/modbus/SerialPort.cpp:24:1:virtual SerialPort::~SerialPort()	16	static
+../src/modbus/SerialPort.cpp:29:5:int SerialPort::available()	16	static
+../src/modbus/SerialPort.cpp:33:6:void SerialPort::begin(int)	16	static
+../src/modbus/SerialPort.cpp:38:5:int SerialPort::read()	32	static
+../src/modbus/SerialPort.cpp:43:5:int SerialPort::write(const char*, int)	24	static
+../src/modbus/SerialPort.cpp:47:5:int SerialPort::print(int, int)	24	static
+../src/modbus/SerialPort.cpp:54:6:void SerialPort::flush()	16	static

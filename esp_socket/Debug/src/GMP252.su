@@ -1,0 +1,6 @@
+../src/GMP252.cpp:10:13:void idle_delay()	8	static
+../src/GMP252.cpp:15:1:GMP252::GMP252()	16	static
+../src/GMP252.cpp:25:1:GMP252::~GMP252()	16	static
+../src/GMP252.cpp:25:1:virtual GMP252::~GMP252()	16	static
+../src/GMP252.cpp:27:5:int GMP252::readCO2()	24	static
+../src/GMP252.cpp:33:5:int GMP252::getStatus()	24	static

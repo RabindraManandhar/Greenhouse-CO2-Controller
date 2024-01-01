@@ -1,0 +1,4 @@
+../src/heap_lock_monitor.c:31:6:heap_monitor_setup	4	static
+../src/heap_lock_monitor.c:45:6:heap_monitor_update	16	static
+../src/heap_lock_monitor.c:52:6:__malloc_lock	16	static
+../src/heap_lock_monitor.c:58:6:__malloc_unlock	16	static

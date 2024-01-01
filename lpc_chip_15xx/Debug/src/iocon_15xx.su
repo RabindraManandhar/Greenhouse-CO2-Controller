@@ -1,0 +1,2 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/iocon_15xx.h:95:20:Chip_IOCON_PinMuxSet	24	static
+../src/iocon_15xx.c:49:6:Chip_IOCON_SetPinMuxing	32	static

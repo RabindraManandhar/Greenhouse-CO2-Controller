@@ -1,0 +1,41 @@
+../src/modbus/word.h:46:24:uint16_t lowWord(uint32_t)	16	static
+../src/modbus/word.h:58:24:uint16_t highWord(uint32_t)	16	static
+../src/modbus/word.h:66:24:uint16_t word(uint8_t)	16	static
+../src/modbus/word.h:71:24:uint16_t word(uint8_t, uint8_t)	16	static
+../src/modbus/word.h:76:23:uint8_t highByte(uint16_t)	16	static
+../src/modbus/word.h:81:24:uint16_t lowByte(uint16_t)	16	static
+../src/modbus/word.h:86:23:uint8_t bitRead(uint8_t, uint8_t)	16	static
+../src/modbus/word.h:91:20:void bitWrite(uint16_t&, uint8_t, uint8_t)	16	static
+../src/modbus/crc16.h:71:17:uint16_t crc16_update(uint16_t, uint8_t)	24	static
+../src/modbus/ModbusMaster.cpp:54:1:ModbusMaster::ModbusMaster()	16	static
+../src/modbus/ModbusMaster.cpp:71:1:ModbusMaster::ModbusMaster(uint8_t)	16	static
+../src/modbus/ModbusMaster.cpp:89:1:ModbusMaster::ModbusMaster(uint8_t, uint8_t)	16	static
+../src/modbus/ModbusMaster.cpp:105:6:void ModbusMaster::begin()	16	static
+../src/modbus/ModbusMaster.cpp:121:6:void ModbusMaster::begin(uint16_t)	24	static
+../src/modbus/ModbusMaster.cpp:169:6:void ModbusMaster::beginTransmission(uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:177:9:uint8_t ModbusMaster::requestFrom(uint16_t, uint16_t)	24	static
+../src/modbus/ModbusMaster.cpp:194:6:void ModbusMaster::sendBit(bool)	24	static
+../src/modbus/ModbusMaster.cpp:210:6:void ModbusMaster::send(uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:220:6:void ModbusMaster::send(uint32_t)	16	static
+../src/modbus/ModbusMaster.cpp:227:6:void ModbusMaster::send(uint8_t)	16	static
+../src/modbus/ModbusMaster.cpp:240:9:uint8_t ModbusMaster::available()	16	static
+../src/modbus/ModbusMaster.cpp:246:10:uint16_t ModbusMaster::receive()	16	static
+../src/modbus/ModbusMaster.cpp:275:6:void ModbusMaster::idle(void (*)())	16	static
+../src/modbus/ModbusMaster.cpp:289:10:uint16_t ModbusMaster::getResponseBuffer(uint8_t)	16	static
+../src/modbus/ModbusMaster.cpp:308:6:void ModbusMaster::clearResponseBuffer()	24	static
+../src/modbus/ModbusMaster.cpp:328:9:uint8_t ModbusMaster::setTransmitBuffer(uint8_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:348:6:void ModbusMaster::clearTransmitBuffer()	24	static
+../src/modbus/ModbusMaster.cpp:382:9:uint8_t ModbusMaster::readCoils(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:413:9:uint8_t ModbusMaster::readDiscreteInputs(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:438:9:uint8_t ModbusMaster::readHoldingRegisters(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:463:9:uint8_t ModbusMaster::readInputRegisters(uint16_t, uint8_t)	16	static
+../src/modbus/ModbusMaster.cpp:486:9:uint8_t ModbusMaster::writeSingleCoil(uint16_t, uint8_t)	16	static
+../src/modbus/ModbusMaster.cpp:506:9:uint8_t ModbusMaster::writeSingleRegister(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:532:9:uint8_t ModbusMaster::writeMultipleCoils(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:539:9:uint8_t ModbusMaster::writeMultipleCoils()	16	static
+../src/modbus/ModbusMaster.cpp:560:9:uint8_t ModbusMaster::writeMultipleRegisters(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:569:9:uint8_t ModbusMaster::writeMultipleRegisters()	16	static
+../src/modbus/ModbusMaster.cpp:598:9:uint8_t ModbusMaster::maskWriteRegister(uint16_t, uint16_t, uint16_t)	24	static
+../src/modbus/ModbusMaster.cpp:628:9:uint8_t ModbusMaster::readWriteMultipleRegisters(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+../src/modbus/ModbusMaster.cpp:637:9:uint8_t ModbusMaster::readWriteMultipleRegisters(uint16_t, uint16_t)	16	static
+../src/modbus/ModbusMaster.cpp:661:9:uint8_t ModbusMaster::ModbusMasterTransaction(uint8_t)	296	static

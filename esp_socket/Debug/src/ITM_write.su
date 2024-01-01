@@ -1,0 +1,3 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/swm_15xx.h:232:20:Chip_SWM_MovablePortPinAssign	16	static
+../src/ITM_write.c:35:6:ITM_init	8	static
+../src/ITM_write.c:42:5:ITM_write	24	static

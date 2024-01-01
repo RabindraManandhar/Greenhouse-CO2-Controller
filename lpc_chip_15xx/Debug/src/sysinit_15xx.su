@@ -1,0 +1,8 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sysctl_15xx.h:380:20:Chip_FMC_SetFLASHAccess	24	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/clock_15xx.h:285:20:Chip_Clock_SetSystemPLLSource	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/clock_15xx.h:297:20:Chip_Clock_SetupSystemPLL	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/clock_15xx.h:306:20:Chip_Clock_IsSystemPLLLocked	4	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/clock_15xx.h:426:20:Chip_Clock_SetSysClockDiv	16	static
+../src/sysinit_15xx.c:51:6:Chip_SetupIrcClocking	8	static
+../src/sysinit_15xx.c:89:6:Chip_SetupXtalClocking	16	static
+../src/sysinit_15xx.c:130:6:Chip_SystemInit	8	static

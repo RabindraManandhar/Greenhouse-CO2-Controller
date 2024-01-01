@@ -1,0 +1,13 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sysctl_15xx.h:185:20:Chip_SYSCTL_PeriphReset	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/ritimer_15xx.h:151:20:Chip_RIT_EnableCompClear	16	static
+../src/ritimer_15xx.c:51:6:Chip_RIT_Init	16	static
+../src/ritimer_15xx.c:59:6:Chip_RIT_DeInit	16	static
+../src/ritimer_15xx.c:66:6:Chip_RIT_SetCTRL	24	static
+../src/ritimer_15xx.c:75:6:Chip_RIT_ClearCTRL	24	static
+../src/ritimer_15xx.c:84:6:Chip_RIT_SetCompareValue	24	static
+../src/ritimer_15xx.c:91:10:Chip_RIT_GetCompareValue	40	static
+../src/ritimer_15xx.c:103:6:Chip_RIT_SetMaskValue	24	static
+../src/ritimer_15xx.c:110:10:Chip_RIT_GetMaskValue	40	static
+../src/ritimer_15xx.c:122:6:Chip_RIT_SetCounter	24	static
+../src/ritimer_15xx.c:129:10:Chip_RIT_GetCounter	40	static
+../src/ritimer_15xx.c:141:6:Chip_RIT_SetTimerIntervalHz	40	static

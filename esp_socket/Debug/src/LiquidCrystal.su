@@ -1,0 +1,27 @@
+c:\nxp\mcuxpressoide_11.5.1_7266\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444\tools\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7-m\nofp\bits\gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../src/LiquidCrystal.cpp:16:6:void delayMicroseconds(uint32_t)	24	static
+../src/LiquidCrystal.cpp:54:1:LiquidCrystal::LiquidCrystal(DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*)	24	static
+../src/LiquidCrystal.cpp:70:6:void LiquidCrystal::begin(uint8_t, uint8_t, uint8_t)	16	static
+../src/LiquidCrystal.cpp:144:6:void LiquidCrystal::clear()	16	static
+../src/LiquidCrystal.cpp:150:6:void LiquidCrystal::home()	16	static
+../src/LiquidCrystal.cpp:157:6:void LiquidCrystal::print(const string&)	16	static
+../src/LiquidCrystal.cpp:162:6:void LiquidCrystal::print(const char*)	16	static
+../src/LiquidCrystal.cpp:170:6:void LiquidCrystal::setCursor(uint8_t, uint8_t)	40	static
+../src/LiquidCrystal.cpp:181:6:void LiquidCrystal::noDisplay()	16	static
+../src/LiquidCrystal.cpp:185:6:void LiquidCrystal::display()	16	static
+../src/LiquidCrystal.cpp:191:6:void LiquidCrystal::noCursor()	16	static
+../src/LiquidCrystal.cpp:195:6:void LiquidCrystal::cursor()	16	static
+../src/LiquidCrystal.cpp:201:6:void LiquidCrystal::noBlink()	16	static
+../src/LiquidCrystal.cpp:205:6:void LiquidCrystal::blink()	16	static
+../src/LiquidCrystal.cpp:211:6:void LiquidCrystal::scrollDisplayLeft()	16	static
+../src/LiquidCrystal.cpp:214:6:void LiquidCrystal::scrollDisplayRight()	16	static
+../src/LiquidCrystal.cpp:219:6:void LiquidCrystal::leftToRight()	16	static
+../src/LiquidCrystal.cpp:225:6:void LiquidCrystal::rightToLeft()	16	static
+../src/LiquidCrystal.cpp:231:6:void LiquidCrystal::autoscroll()	16	static
+../src/LiquidCrystal.cpp:237:6:void LiquidCrystal::noAutoscroll()	16	static
+../src/LiquidCrystal.cpp:244:6:void LiquidCrystal::createChar(uint8_t, uint8_t*)	32	static
+../src/LiquidCrystal.cpp:254:13:void LiquidCrystal::command(uint8_t)	16	static
+../src/LiquidCrystal.cpp:258:15:virtual size_t LiquidCrystal::write(uint8_t)	16	static
+../src/LiquidCrystal.cpp:266:6:void LiquidCrystal::send(uint8_t, uint8_t)	16	static
+../src/LiquidCrystal.cpp:273:6:void LiquidCrystal::pulseEnable()	16	static
+../src/LiquidCrystal.cpp:282:6:void LiquidCrystal::write4bits(uint8_t)	24	static

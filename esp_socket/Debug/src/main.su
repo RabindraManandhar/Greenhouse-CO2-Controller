@@ -1,0 +1,32 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/core_cm3.h:1323:22:void NVIC_EnableIRQ(IRQn_Type)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/core_cm3.h:1335:22:void NVIC_DisableIRQ(IRQn_Type)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/core_cm3.h:1375:22:void NVIC_ClearPendingIRQ(IRQn_Type)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/core_cm3.h:1405:22:void NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sysctl_15xx.h:185:20:void Chip_SYSCTL_PeriphReset(CHIP_SYSCTL_PERIPH_RESET_T)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/iocon_15xx.h:95:20:void Chip_IOCON_PinMuxSet(LPC_IOCON_T*, uint8_t, uint8_t, uint32_t)	24	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/swm_15xx.h:232:20:void Chip_SWM_MovablePortPinAssign(CHIP_SWM_PIN_MOVABLE_T, uint8_t, uint8_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/gpio_15xx.h:121:20:bool Chip_GPIO_GetPinState(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/gpio_15xx.h:158:20:void Chip_GPIO_SetPinDIRInput(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/pinint_15xx.h:79:20:void Chip_PININT_Init(LPC_PIN_INT_T*)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/pinint_15xx.h:101:20:void Chip_PININT_SetPinModeEdge(LPC_PIN_INT_T*, uint32_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/pinint_15xx.h:171:20:void Chip_PININT_EnableIntLow(LPC_PIN_INT_T*, uint32_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/pinint_15xx.h:245:20:void Chip_PININT_ClearIntStatus(LPC_PIN_INT_T*, uint32_t)	16	static
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/inmux_15xx.h:221:20:void Chip_INMUX_PinIntSel(uint8_t, uint8_t, uint8_t)	16	static
+c:\nxp\mcuxpressoide_11.5.1_7266\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.5.1.202201181444\tools\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7-m\nofp\bits\gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../src/main.cpp:79:13:void new_co2_value(int)	24	static
+../src/main.cpp:87:13:void new_wifi_ssid(std::string&)	216	static
+../src/main.cpp:103:13:void new_wifi_password(std::string&)	216	static
+../src/main.cpp:118:13:void new_broker_address(std::string&)	216	static
+../src/main.cpp:134:6:void enable_interrupts(TimerHandle_t)	24	static
+../src/main.cpp:145:13:void prvSetupHardware()	128	static
+../src/main.cpp:190:13:void initialize_hardware_for_menu()	16	static
+../src/main.cpp:247:13:void menu_task(void*)	528	static
+../src/main.cpp:305:5:int calculate_valve_percentage(int)	16	static
+../src/main.cpp:360:6:void control_task(void*)	832	static
+../src/main.cpp:473:6:void vConfigureTimerForRunTimeStats()	8	static
+../src/main.cpp:479:6:void QEI_IRQHandler()	16	static
+../src/main.cpp:504:6:void PIN_INT0_IRQHandler()	32	static
+../src/main.cpp:519:6:void initialize_mailboxes(void*)	432	static
+../src/main.cpp:580:5:int main()	16	static
+../src/main.cpp:618:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../src/main.cpp:618:1:cpp)	8	static

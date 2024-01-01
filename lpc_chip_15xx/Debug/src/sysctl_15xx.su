@@ -1,0 +1,7 @@
+D:\ArmProcessorsAndEmbeddedOS\Project\freertos_project-main\lpc_chip_15xx\inc/sysctl_15xx.h:354:24:Chip_SYSCTL_GetRawFreqMeasCapval	4	static
+../src/sysctl_15xx.c:56:10:Chip_SYSCTL_GetCompFreqMeas	64	static
+../src/sysctl_15xx.c:73:6:Chip_SYSCTL_AssertPeriphReset	16	static
+../src/sysctl_15xx.c:84:6:Chip_SYSCTL_DeassertPeriphReset	16	static
+../src/sysctl_15xx.c:95:6:Chip_SYSCTL_SetWakeup	16	static
+../src/sysctl_15xx.c:102:6:Chip_SYSCTL_PowerDown	24	static
+../src/sysctl_15xx.c:113:6:Chip_SYSCTL_PowerUp	24	static

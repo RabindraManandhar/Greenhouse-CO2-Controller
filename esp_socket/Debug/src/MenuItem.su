@@ -1,0 +1,2 @@
+../src/MenuItem.cpp:14:1:MenuItem::~MenuItem()	16	static
+../src/MenuItem.cpp:14:1:virtual MenuItem::~MenuItem()	16	static

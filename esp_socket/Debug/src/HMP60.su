@@ -1,0 +1,7 @@
+../src/HMP60.cpp:10:13:void idle_delay()	8	static
+../src/HMP60.cpp:15:1:HMP60::HMP60()	16	static
+../src/HMP60.cpp:26:1:HMP60::~HMP60()	16	static
+../src/HMP60.cpp:26:1:virtual HMP60::~HMP60()	16	static
+../src/HMP60.cpp:28:5:int HMP60::readHumidity()	24	static
+../src/HMP60.cpp:34:5:int HMP60::readTemp()	24	static
+../src/HMP60.cpp:40:5:int HMP60::getStatus()	24	static
